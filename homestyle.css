@@ -67,7 +67,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: red;
+  /* background: red; */
 
  }
  .search-box input{
@@ -77,6 +77,20 @@ body{
   border:0 ;
   border-radius: 5px 0 0 5px;
   font-size: 1rem;
+
+
+
+ }
+ .search-box button{
+   
+  padding: 10px 20px;
+  outline: none;
+  border:0 ;
+  border-radius: 0px 5px 5px 0px;
+  font-size: 1rem;
+  background: rgb(245, 37, 9);
+  color: #fff;
+  cursor: pointer;
 
 
 
