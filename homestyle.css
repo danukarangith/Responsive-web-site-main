@@ -119,6 +119,7 @@ body{
   margin: 30px 10px;
   border-radius: 10px;
   border: 1px solid #ccc;
+  overflow: hidden;
  }
  .recipe-card img{
   width: 100%;
