@@ -145,3 +145,9 @@ body{
   padding: 15px 0;
   cursor: pointer;
  }
+ footer{
+  background-color: #333;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+ }
