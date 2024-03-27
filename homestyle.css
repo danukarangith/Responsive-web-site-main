@@ -135,3 +135,11 @@ body{
   font-size: 10px;
   padding: 20px;
  }
+ .recipe-card a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background: #333;
+  color: #fff;
+  padding: 15px 0;
+ }
