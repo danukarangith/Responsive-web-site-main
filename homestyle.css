@@ -120,6 +120,7 @@ body{
   border-radius: 10px;
   border: 1px solid #ccc;
   overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
  }
  .recipe-card img{
   width: 100%;
