@@ -43,6 +43,7 @@ body{
   width: 100%;
   height: 400px;
   background: url(/images/ai-generated-8520388_1920.png);
-  color: #000;
+  background-size: cover;
+   
   
  }
