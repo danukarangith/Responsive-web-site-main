@@ -114,3 +114,7 @@ body{
   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
   column-gap: 10px;
  }
+ .recipe-card{
+  background: #fff;
+  margin: 30px 10px;
+ }
