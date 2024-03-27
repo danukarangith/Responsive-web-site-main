@@ -45,6 +45,7 @@ body{
   background: url(/images/ai-generated-8520388_1920.png);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   color: #fff;
   text-align: center;
   padding: 140px 0;
@@ -66,5 +67,17 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background: red;
+
+ }
+ .search-box input{
+  width: 70%;
+  padding: 10px;
+  outline: none;
+  border:0 ;
+  border-radius: 5px 0 0 5px;
+  font-size: 1rem;
+
+
 
  }
