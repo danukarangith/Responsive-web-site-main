@@ -44,6 +44,8 @@ body{
   height: 400px;
   background: url(/images/ai-generated-8520388_1920.png);
   background-size: cover;
+  background-position: center;
+  color: #fff;
    
   
  }
