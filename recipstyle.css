@@ -1,0 +1,139 @@
+body{
+    background: url(images/food-4066313_1920.jpg);
+    /* background-color: bisque; */
+    color: black;
+    min-height: 100vh;
+    /* font-family: sans-serif; */
+    line-height: 1.4;
+    display: grid;
+    place-content: center;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+h1, h2{
+    font-family:'Young Serif',serif ;
+    font-weight: 400;
+}
+h1{
+    color: blue;
+    font-size: 2.8rem;
+
+}
+h2{
+    color: brown;
+    margin-bottom: 1rem;
+}
+.recipe-steps{
+    margin: 1rem 0;
+}
+.nutrition-step{
+    margin-top: 1rem;
+}
+ul{
+    padding-left:1.25rem ;
+    
+}
+ul li::marker{
+    color: blue;
+    font-weight: bold;
+}
+ul li{
+    margin-bottom: .5rem;
+}
+ul li span{
+    color: black;
+    margin-left: 1rem;
+    font-weight: 700;
+}
+hr {
+    margin: 1.5rem o;
+    border: 1px solid black;
+}
+.container{
+    max-width: 800px;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+.container .recipeimg{
+    padding: 9rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.container .recipeimg img{
+    border-radius: 1rem;
+}
+.recipeinformation{
+    padding-left: 2rem;
+}
+.description{
+    margin: 1.5rem 0;
+}
+.recipe-prep-time{
+    /* background-color: antiquewhite; */
+    padding: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 1rem;
+}
+.recipe-prep-time h3{
+    color: black;
+    margin-bottom: .75rem;
+}
+.Ingrediants li{
+    margin-bottom: .5rem;
+}
+.Ingrediants li span{
+    font-weight: initial;
+}
+.Instructions .item{
+    padding-left: .5rem;
+    margin-bottom: .5rem;
+    display: flex;
+    
+}
+.Instructions .item .num{
+    color: black;
+    margin-right: 1rem;
+    font-weight: 700;
+}
+.nutrition-step .values{
+    margin-bottom: 1rem;
+}
+.nutrition-table .item{
+    padding: .75rem 2rem;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.nutrition-table .item:last-child{
+    border-bottom: 0;
+
+}
+.nutrition-table .item p:nth-child(2){
+    color: black;
+    font-weight: 700;
+}
+.nutrition-table .item > *{
+    width: 100px;
+    margin-right: auto;
+}
+.btn-btn2{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+ 
+.btn-btn2:hover {
+    background-color: red;
+}
+
